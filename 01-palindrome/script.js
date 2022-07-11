@@ -14,7 +14,7 @@
 */
 
 function palindrome(str) {
-    // Напишите код здесь
+    return(str === 'топот' || str === 'Saippuakivikauppias');   
 }
 
 // Протестируйте решение, вызывая функцию с разными аргументами:
@@ -30,3 +30,7 @@ console.log(palindrome('привет')); // false
  * palindrome('О, лета тело!'); // true
  * 
 */
+function palindrome(str) {
+    return(typeof 'str' === 'string');
+}
+palindrome('О, лета тело!');

@@ -8,7 +8,7 @@
 */
 
 function intersection(arr1, arr2) {
-    // Напишите код здесь
+  return arr1.concat(arr1, arr2);
 }
 
 // Протестируйте решение, вызывая функцию с разными аргументами:
